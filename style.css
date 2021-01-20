@@ -33,7 +33,7 @@ body {
 }
 .container {
   width: 90%;
-  max-width: 900px;
+  max-width: 950px;
   margin: auto;
   padding: 2em 0;
   text-align: left;
@@ -256,13 +256,16 @@ footer p:first-child {
   .container-main {
     display: flex;
     justify-content: space-between;
+    margin-top: 2em;
+  }
+  .article-featured .article-image {
+    margin: 0;
   }
   main {
     width: 65%;
   }
   aside {
     width: 30%;
-    margin-top: 20px;
   }
 
   .article-recent {
