@@ -239,6 +239,16 @@ a:focus {
 
 /*! sidebar-section end */
 
+.sub-link {
+  text-decoration: none;
+  color: var(--royal--blue);
+}
+
+.sub-link:hover,
+.sub-link:focus {
+  color: var(--blue);
+}
+
 /* footer */
 footer {
   background-color: var(--royal--blue);
