@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300,400,700&display=swap");
 
 * {
   margin: 0;
@@ -20,6 +20,11 @@ img {
   width: 100%;
   display: block;
 }
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+}
 .container {
   width: 90%;
   max-width: 900px;
@@ -27,7 +32,7 @@ img {
   padding: 2em 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
   text-align: left;
 }
 
@@ -35,18 +40,23 @@ img {
   padding-bottom: 1em;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "Lora", serif;
   font-size: 2rem;
   font-weight: 400;
   color: var(--royal--blue);
 }
+
+h2 {
+  font-size: 1.5rem;
+}
 p.subtitle {
   font-size: 0.75rem;
   font-weight: 700;
-  font-family: "Ubuntu", sans-serif;
+
   color: var(--blue);
-  font-size: 1rem;
+
   text-transform: uppercase;
 }
 
@@ -98,5 +108,9 @@ p.subtitle {
   }
   .navbar ul li {
     margin-bottom: 2em;
+  }
+
+  .container-flex {
+    text-align: left;
   }
 }
