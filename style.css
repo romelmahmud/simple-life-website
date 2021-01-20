@@ -16,12 +16,15 @@ header {
   background-color: var(--white);
 }
 
+img {
+  width: 100%;
+  display: block;
+}
 .container {
-  width: 95%;
+  width: 90%;
   max-width: 900px;
   margin: auto;
   padding: 2em 0;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,10 +93,10 @@ p.subtitle {
     flex-direction: column;
     text-align: center;
   }
-  .container.navbar ul {
+  .navbar ul {
     flex-direction: column;
   }
-  .container.navbar ul li {
+  .navbar ul li {
     margin-bottom: 2em;
   }
 }
