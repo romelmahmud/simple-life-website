@@ -14,6 +14,7 @@
 }
 header {
   background-color: var(--white);
+  padding-top: 1em;
 }
 
 img {
@@ -35,7 +36,6 @@ body {
   max-width: 900px;
   margin: auto;
   padding: 2em 0;
-
   text-align: left;
 }
 
@@ -130,7 +130,6 @@ a:focus {
 .navbar ul li a {
   text-decoration: none;
   color: var(--grey);
-  padding-bottom: 0.25em;
 }
 
 .navbar ul li a:hover,
@@ -139,7 +138,8 @@ a:focus {
 }
 
 .current-page {
-  border-bottom: 2px solid var(--grey);
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid var(--blue);
 }
 
 .navbar ul li a.current-page:hover {
@@ -188,7 +188,7 @@ a:focus {
 .article-recent {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2em;
+  margin-bottom: 2.5em;
 }
 
 .col-left {
@@ -250,4 +250,39 @@ footer {
 footer p:first-child {
   font-weight: 700;
   margin-bottom: 0.5em;
+}
+
+@media (min-width: 700px) {
+  .container-main {
+    display: flex;
+    justify-content: space-between;
+  }
+  main {
+    width: 65%;
+  }
+  aside {
+    width: 30%;
+    margin-top: 20px;
+  }
+
+  .article-recent {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .col-left {
+    width: 30%;
+  }
+  .col-right {
+    width: 65%;
+  }
+
+  .article-image-recent {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .position-right {
+    object-position: left;
+  }
 }
