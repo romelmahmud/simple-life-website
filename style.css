@@ -248,7 +248,27 @@ a:focus {
 .sub-link:focus {
   color: var(--blue);
 }
+.article-about-me {
+  margin-bottom: 4em;
+}
+.about-me-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 3.5em;
+}
 
+.about-me-subtitle {
+  color: var(--blue);
+  margin-bottom: 1em;
+  font-size: 1.3215rem;
+}
+
+.about-me-body {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
 /* footer */
 footer {
   background-color: var(--royal--blue);
