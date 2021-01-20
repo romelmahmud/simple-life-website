@@ -15,18 +15,19 @@
 
 ### Desktop
 
-![screenshot](https://i.postimg.cc/rpVBDMCZ/home-desktop.png)
-![screenshot](https://i.postimg.cc/x8JgXF44/about-me-desktop.png)
-![screenshot](https://i.postimg.cc/9Qh5jG4h/recent-posts-desktop.png)
+![Home](https://i.postimg.cc/rpVBDMCZ/home-desktop.png)
+![About Me](https://i.postimg.cc/x8JgXF44/about-me-desktop.png)
+![Recent Posts](https://i.postimg.cc/9Qh5jG4h/recent-posts-desktop.png)
 
 ### Mobile
 
-![screenshot](https://i.postimg.cc/05zqG5gL/about-me-mobile.png)
-![screenshot](https://i.postimg.cc/wjQKx7Js/home-mobile.png)
+![About Me](https://i.postimg.cc/05zqG5gL/about-me-mobile.png)
+
+![Home](https://i.postimg.cc/wjQKx7Js/home-mobile.png)
 
 ## Acknowledgements
 
-- [I follow this vedio from freeCodeCamp](https://www.youtube.com/watch?v=srvUrASNj0s&t=10577s)
+- [I follow this video from freeCodeCamp](https://www.youtube.com/watch?v=srvUrASNj0s&t=10577s)
 
 ## Contact
 
